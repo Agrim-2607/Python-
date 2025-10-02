@@ -1,0 +1,5 @@
+a=int(input("enter 1 number"))
+b=int(input("enter 2 number"))
+c=int(input("enter 3 number"))
+eq=a*(pow(b,3)+pow(c,2))
+print("the desired result is", eq)

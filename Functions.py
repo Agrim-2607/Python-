@@ -1,0 +1,20 @@
+t=(1,2,3,4,5,6,7,8,9,10)
+l=len(t)
+print("Length of the tupple",l)
+
+M=max(t)
+print("Maximum number=",M)
+
+m=min(t)
+print("Minimum number=",m)
+
+s=sum(t)
+print("Sum of all=",s)
+
+a=int(input("Enter the number to be found the index of"))
+I=t.index(a)
+print("Index =",I)
+
+c=t.count(10)
+print("10 occurs",c,"Times")
+
